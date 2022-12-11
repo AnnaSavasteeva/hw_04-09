@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-color: rgb(245, 245, 245)
+}
+
+div.text {
+    margin: 0 100px;
+    padding: 10px 180px 25px 180px;
+    background-color: white;
+    color: #4c4c4c;
+    font: normal 17px/26px "Lava 3", "PT Serif", serif;
+    text-rendering: optimizeLegibility; /* Для чего это свойство? */
+}
+
+div.advert, address, .sign, .signNovel {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+div.advert {
+    font-style: italic;
+    color: #262626
+}
+
+div.nav, div.navNovel {
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+div.up {
+    position: fixed;
+    right: 100px;
+    bottom: 25px;
+    color: steelblue;
+    font-size: 80px
+    }
+
+h1, h2, h3, address, .textCenter {
+    text-align: center;
+}
+h1 {
+    color: firebrick;
+    font-size: 2em
+}
+h2, h3 {color: #262626}
+hr {
+    margin: 1.5em 0;
+    border-top-color: #262626
+}
+
+p.novel {
+    color: #262626;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: center
+}
+
+address {font-style: normal;}
+
+a {text-decoration: none}
+a:link {color: steelblue}
+a:visited {color: steelblue}
+a:hover {color: maroon}
+a[href=""] {color: #4c4c4c}
+div.nav a, div.navNovel a {
+    display: inline-block;
+    border: 1px solid steelblue;
+    margin: 7px auto;
+    margin-bottom: 10px;
+    width: 180px;
+    padding: 5px;
+}
+div.navNovel a {margin-bottom: 0}
+div.nav a:hover, div.navNovel a:hover {
+    color: maroon;
+    border-color: maroon
+}
+
+.attention {color: maroon}
+.signText {
+    text-align: right;
+    font-style: italic;
+}
+.signNovel {font-style: italic}
+.indentLR {padding: 0 10px}
+.indentR {padding-right: 20px}
+.bold {
+    font-weight: bold;
+    color: #262626
+}
+.light {color: #888888}
